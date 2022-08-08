@@ -18,6 +18,6 @@ As a result, it creates exe file ```keylogger.exe``` and this is file you can se
 
 ### Server app
 Compilation: ```gcc main.c -o server```\
-To run server, just type in terminal ```./server```, and it should work.
+To run server, just type in terminal ```./server 127.0.0.1```, and it should work.
 
 ## This program is written only for educational purpose. Author of this program is not responsible of possible illegal usage of this program!
